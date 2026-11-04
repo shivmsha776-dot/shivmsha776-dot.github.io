@@ -7,13 +7,31 @@
 <style>
   body { font: 16px/1.6 system-ui, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 16px; color: #1b1e24; }
   a { color: #2563eb; }
+  nav { margin-bottom: 24px; }
+  nav a { margin-right: 14px; }
+  .yt { display: inline-block; background: #ff0000; color: #fff; font-weight: 700; border-radius: 6px; padding: 2px 10px; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #ddd; font-size: 14px; }
 </style>
 </head>
 <body>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a></nav>
 <h1>Channel Hub</h1>
+<p><span class="yt">Uses YouTube API Services</span></p>
 <p>Channel Hub is a private desktop tool used by the owner of a few YouTube channels to upload
 their own finished videos to their own channels on a schedule.</p>
-<p>It runs only on the owner's computer. It is not offered to the public and has no user accounts.</p>
-<p><a href="privacy.html">Privacy policy</a></p>
+<h2>What it does</h2>
+<ul>
+  <li>Watches a folder on the owner's computer for finished videos.</li>
+  <li>Works out which of the owner's channels each video belongs to from the channel watermark in the video.</li>
+  <li>Uploads it to that YouTube channel with the YouTube Data API, scheduled at the owner's posting times,
+    with the owner's thumbnail and playlist.</li>
+</ul>
+<p>It runs only on the owner's computer. It is not offered to the public and has no user accounts.
+Access to each channel is given through Google sign-in and can be removed at any time.</p>
+<p>By using Channel Hub you agree to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>
+and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<footer>
+  <a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of service</a> · Contact: fourarms66@gmail.com
+</footer>
 </body>
 </html>

@@ -7,32 +7,64 @@
 <style>
   body { font: 16px/1.6 system-ui, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 16px; color: #1b1e24; }
   a { color: #2563eb; }
+  nav { margin-bottom: 24px; }
+  nav a { margin-right: 14px; }
 </style>
 </head>
 <body>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of service</a></nav>
 <h1>Privacy policy</h1>
-<p><b>Channel Hub</b> is a private tool that runs on its owner's own computer. It is used only by
-that owner, to upload videos to YouTube channels the owner runs.</p>
+<p><i>Last updated: 4 November 2026</i></p>
+<p><b>Channel Hub</b> is a private desktop tool that runs on its owner's own computer. It is used only by
+that owner, to upload the owner's videos to the owner's own YouTube channels.</p>
 
-<h2>What it accesses</h2>
-<p>With the owner's permission (Google sign-in), Channel Hub uses the YouTube Data API to:</p>
+<h2>YouTube API Services</h2>
+<p>Channel Hub uses <b>YouTube API Services</b>. By using Channel Hub you agree to be bound by the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of personal
+information is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>What information is accessed</h2>
+<p>With permission given through Google sign-in (OAuth), Channel Hub accesses through the YouTube Data API:</p>
 <ul>
-  <li>read the list of videos already on the owner's channels (titles, descriptions, file names, playlists),</li>
-  <li>upload new videos, set their thumbnails and add them to playlists.</li>
+  <li>the signed-in YouTube channel's name, ID and picture, and the email address of the Google account;</li>
+  <li>the list of videos on that channel: titles, descriptions, tags, category, privacy and schedule settings,
+    original upload file names and playlists.</li>
 </ul>
 
-<h2>Where the data is kept</h2>
-<p>Sign-in tokens and video details are stored only on the owner's computer. Nothing is sent to
-any server other than Google's YouTube services. No data is sold, shared or used for advertising.</p>
+<h2>How it is used</h2>
+<ul>
+  <li>To upload new videos to the owner's channel, set their thumbnails and add them to playlists.</li>
+  <li>To avoid uploading the same file twice (by comparing file names with videos already on the channel).</li>
+  <li>To reuse the title and description of an earlier part of the same story for its next part.</li>
+</ul>
+<p>The information is not used for advertising, profiling or any other purpose.</p>
 
-<h2>YouTube and Google</h2>
-<p>Channel Hub uses YouTube API Services. By using it you agree to the
-<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google's handling of data is
-described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
-Access can be removed at any time at
-<a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+<h2>Storage and sharing</h2>
+<p>Sign-in tokens and the video information above are stored only on the owner's computer, in the
+application's own folder. Nothing is sent to any server other than Google's YouTube services.
+No information is sold, shared with or disclosed to any third party.</p>
+<p>Channel Hub does not use cookies, and does not place or read any information on users' devices or
+browsers other than its own local files.</p>
+
+<h2>Keeping information fresh and deleting it</h2>
+<ul>
+  <li>Stored video information is refreshed from YouTube every few hours.</li>
+  <li><b>Disconnecting</b> a channel in Channel Hub immediately deletes its sign-in token and all stored
+    information about that channel.</li>
+  <li>If a channel's access is revoked and its information can no longer be refreshed, the stored information
+    for that channel is deleted automatically within 30 days.</li>
+  <li>Deleting the application folder deletes all stored information.</li>
+</ul>
+
+<h2>Revoking access</h2>
+<p>Access can be removed at any time on the Google security settings page:
+<a href="https://security.google.com/settings/security/permissions">https://security.google.com/settings/security/permissions</a>
+(choose "Channel Hub", then "Remove access").</p>
+
+<h2>Changes</h2>
+<p>Any changes to this policy will be posted on this page with a new "last updated" date.</p>
 
 <h2>Contact</h2>
-<p>Questions: fourarms66@gmail.com</p>
+<p>Questions or deletion requests: fourarms66@gmail.com</p>
 </body>
 </html>
